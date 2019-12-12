@@ -1,0 +1,9 @@
+{
+    "project_name": "Project Name",
+    "module_name": "project_name",
+    "author_name": "Your Full name",
+    "author_email": "youremail@example.com",
+    "github_username": "username",
+    "project_version": "0.1.0",
+    "project_short_description": "Add desription."
+}
