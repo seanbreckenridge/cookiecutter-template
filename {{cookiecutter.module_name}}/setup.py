@@ -17,7 +17,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     license='MIT',
-    packages=find_packages(include='{{cookiecutter.module_name}}'),
+    packages=find_packages(include=['{{cookiecutter.module_name}}']),
     test_suite='tests',
     install_requires=requirements,
     keywords='',
