@@ -10,7 +10,8 @@ with io.open('README.md', encoding='utf-8') as fo:
 setup(
     name='{{ cookiecutter.project_name }}',
     version="0.1.0",
-    url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}',
+    url=
+    'https://gitlab.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}',
     author='{{ cookiecutter.author_name }}',
     author_email='{{ cookiecutter.author_email }}',
     description=('''{{ cookiecutter.project_short_description }}'''),
