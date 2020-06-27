@@ -1,4 +1,6 @@
-import {{ cookiecutter.module_name }}
+import sys
+
+from .cli import main_wrapper
 
 if __name__ == '__main__':
-    pass
+    sys.exit(main_wrapper())

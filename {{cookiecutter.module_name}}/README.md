@@ -3,8 +3,7 @@
 
 {{ cookiecutter.project_short_description }}
 
-Installation
-------------
+## Installation
 
 #### Requires:
 
@@ -14,8 +13,7 @@ To install with pip, run:
 
     pip3 install {{ cookiecutter.module_name }}
 
-Run
-----------
+## Run
 
 ```
 TODO: Fill this out
@@ -23,8 +21,7 @@ TODO: Fill this out
 Usage: ...
 ```
 
-Tests
-----------
+# Tests
 
-
-    pytest
+    pip install pytest
+    pytest  # in the root directory

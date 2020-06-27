@@ -1,7 +1,7 @@
 import io
 from setuptools import setup, find_packages
 
-requirements = []
+requirements = ["click>=7.0"]
 
 # Use the README.md content for the long description:
 with io.open('README.md', encoding='utf-8') as fo:
@@ -22,6 +22,11 @@ setup(
     test_suite='tests',
     install_requires=requirements,
     keywords='',
+    entry_points = {
+        'console_scripts': [
+            "{{cookiecutter.module_name}} = {{cookiecutter.module_name}}.cli:main"
+        ]
+    },
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
