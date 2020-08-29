@@ -1,5 +1,4 @@
-{{ cookiecutter.project_name }}
-======
+# {{ cookiecutter.project_name }}
 
 {{ cookiecutter.project_short_description }}
 
@@ -13,7 +12,7 @@ To install with pip, run:
 
     pip3 install {{ cookiecutter.module_name }}
 
-## Run
+## Usage
 
 ```
 TODO: Fill this out
