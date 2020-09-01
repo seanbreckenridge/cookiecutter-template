@@ -10,7 +10,7 @@
 
 To install with pip, run:
 
-    pip3 install {{ cookiecutter.module_name }}
+    pip install {{ cookiecutter.module_name }}
 
 ## Usage
 
