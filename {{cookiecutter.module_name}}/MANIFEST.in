@@ -3,4 +3,5 @@ include README.md
 exclude Makefile
 exclude tags*
 recursive-exclude tests *.py
-
+include pytest.ini
+recursive-include something *.typed
