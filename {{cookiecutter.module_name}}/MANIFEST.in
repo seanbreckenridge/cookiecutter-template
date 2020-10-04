@@ -1,7 +1,8 @@
 include LICENSE
 include README.md
+include pytest.ini
+include mypy.ini
 exclude Makefile
 exclude tags*
 recursive-exclude tests *.py
-include pytest.ini
 recursive-include something *.typed
