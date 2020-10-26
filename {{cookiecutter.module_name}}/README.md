@@ -20,11 +20,12 @@ TODO: Fill this out
 Usage: ...
 ```
 
-# Tests
+### Tests
 
-
-    git clone 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}'
-    cd ./{{ cookiecutter.module_name }}
-    pip install '.[testing]'
-    mypy ./{{ cookiecutter.module_name }}
-    pytest
+```bash
+git clone 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}'
+cd ./{{ cookiecutter.module_name }}
+pip install '.[testing]'
+mypy ./{{ cookiecutter.module_name }}
+pytest
+```
