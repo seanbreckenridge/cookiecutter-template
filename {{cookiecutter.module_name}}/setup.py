@@ -18,6 +18,7 @@ setup(
     packages=find_packages(include=[pkg]),
     install_requires=reqs,
     package_data={pkg: ["py.typed"]},
+    zip_safe=False,
     keywords="",
     entry_points={
         "console_scripts": [
