@@ -25,7 +25,7 @@ jobs:
           pip install '.[testing]'
       - name: Run mypy
         run: |
-          mypy ./{{ cookiecutter.module_name }}
+          mypy --install-types --non-interactive ./{{ cookiecutter.module_name }}
       - name: Run pytest
         run: |
           pytest
