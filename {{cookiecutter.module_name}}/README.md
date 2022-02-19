@@ -10,8 +10,6 @@ To install with pip, run:
 
     pip install {{ cookiecutter.module_name }}
 
----
-
 ## Usage
 
 ```
@@ -26,6 +24,7 @@ Usage: ...
 git clone 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}'
 cd ./{{ cookiecutter.module_name }}
 pip install '.[testing]'
-mypy ./{{ cookiecutter.module_name }}
 pytest
+flake8 ./{{ cookiecutter.module_name }}
+mypy ./{{ cookiecutter.module_name }}
 ```
