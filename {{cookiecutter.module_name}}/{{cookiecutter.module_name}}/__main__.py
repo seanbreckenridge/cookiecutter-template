@@ -1,15 +1,16 @@
+from pathlib import Path
 import click
 
 
 @click.group()
-def main():
+def main() -> None:
     pass
 
 
-@main.command()
-# @click.argument("SOME_ARG", required=True, type=int)
-# @click.option("--some-path", required=False, type=click.Path(), help="Describe input path")
-def cmd():
+@main.command(short_help="describe command")
+@click.option("--flag", is_flag=True, help="describe flag")
+@click.argument("FILE", required=True, type=click.Path(exists=True, path_type=Path))
+def command(flag: bool, file: Path) -> None:
     pass
 
 

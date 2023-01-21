@@ -3,8 +3,7 @@ import {{ cookiecutter.module_name }}
 
 
 def test_basic():
-    print("Add some tests!")
-    assert False
+    assert False, "no tests here!"
 
 
 if __name__ == "__main__":

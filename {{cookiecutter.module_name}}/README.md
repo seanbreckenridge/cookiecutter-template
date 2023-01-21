@@ -8,14 +8,14 @@ Requires `python3.7+`
 
 To install with pip, run:
 
-    pip install {{ cookiecutter.module_name }}
+```
+pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.module_name }}
+```
 
 ## Usage
 
 ```
-TODO: Fill this out
-
-Usage: ...
+{{ cookiecutter.module_name }} --help
 ```
 
 ### Tests
