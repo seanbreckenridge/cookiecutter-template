@@ -4,8 +4,7 @@ Custom cookiecutter template for my defaults. Uses parts of the [default](https:
 
 - uses `click` for handling CLI arguments
 - creates a `__main__.py` file to be executed like `python -m modulename`.
-- Sets up [`pytest`](https://docs.pytest.org/en/latest/) (with an `.ini` file to run doctests) and `mypy`
-- `setup.py` sets up a typed package, and reads from the `requirements.txt` and `README.md` for dependencies/long_description
+- Puts all the declarative metadata (pytest, mypy, flake8, package metadata, requirements) in `setup.cfg`
 
 Run:
 
