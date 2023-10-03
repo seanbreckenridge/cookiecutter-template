@@ -12,10 +12,11 @@ If I'm just doing a library, I delete the `__main__.py`, modify the `setup.cfg` 
 
 Otherwise, I put code in some other file like `package_name/core.py`, and then import it in `__main__.py`
 
-Run:
+After `pip install cookiecutter`, run:
 
 ```bash
 cookiecutter gh:seanbreckenridge/cookiecutter-template
-cd ./folder/you/just-created
+cd ./package_name
 pip install '.[testing]'
+python3 -m pytest
 ```
